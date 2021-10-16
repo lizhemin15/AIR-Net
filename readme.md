@@ -22,3 +22,16 @@ Table 1 shows the efficacy of AIR-Net on the various data types. More surprising
 ## Interesting properties
 As Figure 1 shows, both Lr(t) and Lc(t) first appear many blocks (t = 4000). Specially, we sigh two of Lc(t = 4000) out. These blocks indicate that these corresponding blocks columns are highly related. These blocks correspond to columns in which the eyes of Baboon are located, which are indeed highly similar. However, the slight difference between these columns induces the relationship captured by adaptive regularizer focusing on the related columns (t = 7000), which is similar to TV(Rudin et al., 1992). The columns of Baboon are not fully the same. The regularization gradually vanishes (t = 10000), which matches the results of Theorem 2 in paper (Figure 1). Except the gray-scale images, the results on Syn-Netflix give similar conclusion.
 ![](https://jamily-pic-bed.oss-cn-shenzhen.aliyuncs.com/20211012102950.png)
+
+# Reference
+Our Paper is https://arxiv.org/pdf/2110.07557.pdf
+
+If this is helpful for you, please reference our work as 
+@misc{li2021airnet,
+      title={AIR-Net: Adaptive and Implicit Regularization Neural Network for Matrix Completion}, 
+      author={Zhemin Li and Hongxia Wang},
+      year={2021},
+      eprint={2110.07557},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
