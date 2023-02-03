@@ -25,6 +25,7 @@ As Figure 1 shows, both Lr(t) and Lc(t) first appear many blocks (t = 4000). Spe
 
 # Reference
 If this is helpful for you, please reference our work as 
+'''
 @article{doi:10.1137/22M1489228,
 author = {Li, Zhemin and Sun, Tao and Wang, Hongxia and Wang, Bao},
 title = {Adaptive and Implicit Regularization for Matrix Completion},
@@ -35,3 +36,4 @@ pages = {2000-2022},
 year = {2022},
 doi = {10.1137/22M1489228},
 }
+'''
