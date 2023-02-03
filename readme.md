@@ -24,14 +24,14 @@ As Figure 1 shows, both Lr(t) and Lc(t) first appear many blocks (t = 4000). Spe
 ![](https://jamily-pic-bed.oss-cn-shenzhen.aliyuncs.com/20211012102950.png)
 
 # Reference
-Our Paper is https://arxiv.org/pdf/2110.07557.pdf
-
 If this is helpful for you, please reference our work as 
-@misc{li2021airnet,
-      title={AIR-Net: Adaptive and Implicit Regularization Neural Network for Matrix Completion}, 
-      author={Zhemin Li and Hongxia Wang},
-      year={2021},
-      eprint={2110.07557},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{doi:10.1137/22M1489228,
+author = {Li, Zhemin and Sun, Tao and Wang, Hongxia and Wang, Bao},
+title = {Adaptive and Implicit Regularization for Matrix Completion},
+journal = {SIAM Journal on Imaging Sciences},
+volume = {15},
+number = {4},
+pages = {2000-2022},
+year = {2022},
+doi = {10.1137/22M1489228},
 }
